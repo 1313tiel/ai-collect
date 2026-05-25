@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI工具集官网 | 1000+ AI工具集合，国内外AI工具集导航大全</title>
+    <meta
+      name="description"
+      content="AI工具集导航收录国内外不同类型AI工具，涵盖AI写作、图像、视频、办公、智能体、编程、设计、搜索、模型等分类。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <a class="brand" href="#top" aria-label="返回顶部">
+        <span class="brand-mark">AI</span>
+        <span>
+          <strong>AI工具集</strong>
+          <small>ai-bot.cn mirror</small>
+        </span>
+      </a>
+      <div class="nav-caption">分类导航 · 点击直达对应模块</div>
+      <nav class="side-nav" id="sideNav" aria-label="AI工具分类导航"></nav>
+    </aside>
+
+    <main class="page" id="top">
+      <header class="topbar">
+        <button class="menu-button" id="menuButton" aria-label="打开导航">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="top-links" aria-label="站点推荐">
+          <a href="#hot">AI工具集</a>
+          <a href="#latest">最新收录</a>
+          <a href="#agent">AI智能体</a>
+          <a href="#coding">AI编程工具</a>
+          <a href="#learn">AI教程资源</a>
+          <a href="#search">AI搜索引擎</a>
+        </nav>
+      </header>
+
+      <section class="hero" aria-label="搜索">
+        <div class="hero-logo">
+          <span class="logo-symbol">AI</span>
+          <div>
+            <h1>AI工具集</h1>
+            <p>1000+ AI工具集合，国内外AI工具集导航大全</p>
+          </div>
+        </div>
+        <div class="search-panel">
+          <div class="search-tabs" role="tablist">
+            <button class="active" type="button" data-tab="常用">常用</button>
+            <button type="button" data-tab="搜索">搜索</button>
+            <button type="button" data-tab="社区">社区</button>
+            <button type="button" data-tab="图片">图片</button>
+            <button type="button" data-tab="生活">生活</button>
+          </div>
+          <form class="search-box" id="searchForm">
+            <input id="searchInput" type="search" placeholder="站内搜索 AI 工具、模型、教程..." autocomplete="off" />
+            <button type="submit">搜索</button>
+          </form>
+          <div class="search-status" id="searchStatus">输入关键词后，将只展示匹配的分类和工具。</div>
+          <div class="quick-links" id="quickLinks"></div>
+        </div>
+      </section>
+
+      <section class="notice-grid" aria-label="推荐内容">
+        <a href="#latest">AI快讯</a>
+        <a href="#dev">AI项目</a>
+        <a href="#learn">AI百科</a>
+        <a href="#agent">AI交流群</a>
+        <a href="#prompt">热门AI教程</a>
+      </section>
+
+      <section class="news-strip">
+        <strong>每日AI快讯热闻</strong>
+        <a href="#video">LiblibAI - Seedance 2.0上线 支持真人素材</a>
+        <a href="#learn">OpenAI《构建 Agents 实用指南》（PDF文件）</a>
+        <a href="#agent">Claude 官方发布《Agent 构建指南》（中文版）</a>
+      </section>
+
+      <section class="module-map" aria-label="内容定位">
+        <div>
+          <strong>内容定位</strong>
+          <span>左侧菜单名称与下方模块标题完全一致，点击后会定位到同名模块。</span>
+        </div>
+        <button type="button" id="clearSearch">清空搜索</button>
+      </section>
+
+      <div id="content"></div>
+
+      <footer class="footer">
+        <p>
+          AI工具集导航收录了国内外数百个不同类型的AI工具，每日更新和添加最新AI工具，还推荐AI学习开发的常用网站、框架和模型。
+        </p>
+        <div class="footer-links">
+          <a href="#hot">AI工具集导航</a>
+          <a href="#latest">最新收录</a>
+          <a href="#detect">免责声明</a>
+          <a href="#dev">最新AI项目</a>
+          <a href="#agent">AI应用商店</a>
+        </div>
+        <p class="copyright">Copyright © 2026 AI工具集</p>
+      </footer>
+    </main>
+
+    <script src="./script.js?v=20260525-nav-locate"></script>
+  </body>
+</html>
