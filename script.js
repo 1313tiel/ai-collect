@@ -255,6 +255,11 @@ const searchInput = document.querySelector("#searchInput");
 const searchForm = document.querySelector("#searchForm");
 const searchStatus = document.querySelector("#searchStatus");
 const clearSearch = document.querySelector("#clearSearch");
+let lockedNavTarget = "";
+let lockedNavTimer = 0;
+let lastSidebarTarget = "";
+let lastSidebarTime = 0;
+let activeScrollToken = 0;
 
 function initials(name) {
   const clean = name.replace(/[·. -]/g, "");
@@ -284,14 +289,89 @@ function flashSection(target) {
   });
 }
 
+function getHeaderOffset() {
+  const topbar = document.querySelector(".topbar");
+  return (topbar ? topbar.offsetHeight : 0) + 20;
+}
+
+function lockNavTarget(id) {
+  lockedNavTarget = id;
+  window.clearTimeout(lockedNavTimer);
+  lockedNavTimer = window.setTimeout(() => {
+    lockedNavTarget = "";
+    updateActiveByScroll();
+  }, 1200);
+}
+
+function nowTime() {
+  if (window.performance && typeof window.performance.now === "function") {
+    return window.performance.now();
+  }
+  return Date.now();
+}
+
+function smoothScrollTo(targetY, instant, done) {
+  activeScrollToken += 1;
+  const scrollToken = activeScrollToken;
+  const html = document.documentElement;
+  const body = document.body;
+  const previousHtmlScrollBehavior = html.style.scrollBehavior;
+  const previousBodyScrollBehavior = body.style.scrollBehavior;
+  const startY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  const distance = targetY - startY;
+  const duration = instant ? 0 : 520;
+  const startTime = nowTime();
+  const raf = window.requestAnimationFrame || function (callback) {
+    return window.setTimeout(callback, 16);
+  };
+
+  html.style.scrollBehavior = "auto";
+  body.style.scrollBehavior = "auto";
+
+  function finish() {
+    window.scrollTo(0, targetY);
+    html.style.scrollBehavior = previousHtmlScrollBehavior;
+    body.style.scrollBehavior = previousBodyScrollBehavior;
+    if (typeof done === "function") done();
+  }
+
+  if (!duration || !raf) {
+    finish();
+    return;
+  }
+
+  function step() {
+    if (scrollToken !== activeScrollToken) return;
+
+    const elapsed = nowTime() - startTime;
+    let progress = Math.min(1, elapsed / duration);
+    if (progress > 0 && progress < 0.02) progress = 0.02;
+    const nextY = startY + distance * progress;
+    window.scrollTo(0, nextY);
+    if (progress < 1) {
+      raf(step);
+    } else {
+      finish();
+    }
+  }
+
+  step();
+}
+
 function scrollToSection(id, options = {}) {
   const target = document.getElementById(id);
   if (!target) return;
-  target.scrollIntoView({ behavior: options.instant ? "auto" : "smooth", block: "start" });
-  target.setAttribute("tabindex", "-1");
-  target.focus({ preventScroll: true });
-  flashSection(target);
+
+  const headingTarget = target.querySelector(".section-head") || target;
+  const currentY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  const y = Math.max(0, headingTarget.getBoundingClientRect().top + currentY - getHeaderOffset());
+  lockNavTarget(id);
   setActiveNav(id);
+  smoothScrollTo(y, options.instant, () => {
+    history.replaceState(null, "", `#${id}`);
+    setActiveNav(id);
+    flashSection(target);
+  });
 }
 
 function locateSection(id) {
@@ -302,18 +382,11 @@ function locateSection(id) {
   scrollToSection(id);
 }
 
-window.aiToolsLocateSection = (id) => {
-  locateSection(id);
-  history.replaceState(null, "", `#${id}`);
-  document.body.classList.remove("nav-open");
-  return false;
-};
-
 function renderNav() {
   sideNav.innerHTML = sections
     .map(
       (section, index) => `
-        <a href="#${section.id}" data-target="${section.id}" onclick="return window.aiToolsLocateSection('${section.id}')" title="点击跳转到：${section.title}">
+        <a href="#${section.id}" data-target="${section.id}" title="点击滚动到：${section.title}">
           <span class="nav-index">${String(index + 1).padStart(2, "0")}</span>
           <span class="nav-name">${section.title}</span>
         </a>
@@ -321,14 +394,67 @@ function renderNav() {
     )
     .join("");
 
-  sideNav.addEventListener("click", (event) => {
-    const link = event.target.closest("a[data-target]");
-    if (!link) return;
-    event.preventDefault();
-    document.body.classList.remove("nav-open");
-    locateSection(link.dataset.target);
-    history.replaceState(null, "", `#${link.dataset.target}`);
+  sideNav.querySelectorAll("a[data-target]").forEach((link) => {
+    link.addEventListener("click", handleSidebarNavigation);
   });
+}
+
+function closestSidebarLink(node) {
+  while (node && node !== document) {
+    if (node.getAttribute && node.getAttribute("data-target") && node.parentNode === sideNav) {
+      return node;
+    }
+    node = node.parentNode;
+  }
+  return null;
+}
+
+function findSidebarLinkFromEvent(event) {
+  const directLink = closestSidebarLink(event.target);
+  if (directLink) return directLink;
+
+  const x = event.clientX;
+  const y = event.clientY;
+  if (!Number.isFinite(x) || !Number.isFinite(y)) return null;
+
+  const links = sideNav.querySelectorAll("a[data-target]");
+  for (let i = 0; i < links.length; i += 1) {
+    const link = links[i];
+    const rect = link.getBoundingClientRect();
+    if (x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom) {
+      return link;
+    }
+  }
+
+  return null;
+}
+
+function handleSidebarNavigation(event) {
+  const matchedLink = findSidebarLinkFromEvent(event);
+  if (!matchedLink) return;
+
+  event.preventDefault();
+  event.stopPropagation();
+
+  const targetId = matchedLink.dataset.target;
+  const now = Date.now();
+  if (targetId === lastSidebarTarget && now - lastSidebarTime < 250) {
+    return;
+  }
+
+  lastSidebarTarget = targetId;
+  lastSidebarTime = now;
+  document.body.classList.remove("nav-open");
+  locateSection(targetId);
+}
+
+function bindSidebarCoordinateNavigation() {
+  document.addEventListener("mousedown", handleSidebarNavigation, true);
+  document.addEventListener("click", handleSidebarNavigation, true);
+
+  if ("onpointerdown" in window) {
+    document.addEventListener("pointerdown", handleSidebarNavigation, true);
+  }
 }
 
 function renderSections(filter = "") {
@@ -393,6 +519,11 @@ function renderSections(filter = "") {
 }
 
 function updateActiveByScroll() {
+  if (lockedNavTarget) {
+    setActiveNav(lockedNavTarget);
+    return;
+  }
+
   const visibleSections = sections
     .map((section) => document.getElementById(section.id))
     .filter(Boolean)
@@ -407,7 +538,8 @@ quickLinksWrap.addEventListener("click", (event) => {
   if (event.target.tagName !== "BUTTON") return;
   searchInput.value = event.target.textContent;
   renderSections(searchInput.value);
-  scrollToSection(document.querySelector(".section")?.id || "content");
+  const firstMatchedSection = document.querySelector(".section");
+  scrollToSection(firstMatchedSection ? firstMatchedSection.id : "content");
 });
 
 searchForm.addEventListener("submit", (event) => {
@@ -451,6 +583,7 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
 window.addEventListener("scroll", updateActiveByScroll, { passive: true });
 
 renderNav();
+bindSidebarCoordinateNavigation();
 renderSections();
 setActiveNav("hot");
 

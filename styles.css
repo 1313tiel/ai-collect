@@ -382,7 +382,7 @@ h1 {
 
 .section.is-located {
   background: rgba(47, 116, 255, 0.055);
-  box-shadow: 0 0 0 10px rgba(47, 116, 255, 0.055);
+  box-shadow: none;
 }
 
 .section-anchor {
