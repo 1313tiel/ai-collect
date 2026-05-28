@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI工具详情 | AI工具集</title>
+    <meta name="description" content="AI工具集本地动态详情页，根据工具ID展示对应工具介绍、功能、场景和访问入口。" />
+    <link rel="stylesheet" href="../detail.css?v=20260526-dynamic-detail" />
+  </head>
+  <body>
+    <aside class="detail-sidebar">
+      <a class="brand" href="../index.html" aria-label="返回AI工具集首页">
+        <span class="brand-mark">AI</span>
+        <span>
+          <strong>AI工具集</strong>
+          <small>ai-bot.cn mirror</small>
+        </span>
+      </a>
+      <div class="nav-caption">AI工具分类导航</div>
+      <nav class="side-nav" id="detailSideNav" aria-label="AI工具分类导航"></nav>
+    </aside>
+
+    <main class="detail-page">
+      <header class="topbar">
+        <button class="menu-button" id="menuButton" aria-label="打开导航">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="top-links" aria-label="顶部导航">
+          <a href="../index.html">AI工具集</a>
+          <a href="../index.html#latest">最新收录</a>
+          <a href="../index.html#agent">AI智能体</a>
+          <a href="../index.html#coding">AI编程工具</a>
+          <a href="../index.html#learn">AI教程资源</a>
+          <a href="../admin.html">内容编辑</a>
+        </nav>
+      </header>
+
+      <div id="detailRoot" class="detail-loading">正在加载工具详情...</div>
+
+      <footer class="detail-footer">
+        <p>AI工具集导航收录国内外不同类型的AI工具，本详情页由本地 JSON 数据动态生成。</p>
+        <div>
+          <a href="../index.html">返回首页</a>
+          <a href="../admin.html">编辑内容</a>
+          <a href="../index.html#hot">热门AI工具</a>
+        </div>
+      </footer>
+    </main>
+
+    <script src="../detail.js?v=20260526-dynamic-detail"></script>
+  </body>
+</html>

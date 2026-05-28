@@ -1,0 +1,2771 @@
+{
+  "tools": [
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "desc": "月之暗面推出的智能助手，支持长文本阅读、联网搜索和文件解析",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "",
+      "logoText": "KI",
+      "tags": [
+        "热门AI工具",
+        "热门"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "doubao",
+      "name": "豆包",
+      "desc": "字节跳动推出的AI智能助手，覆盖写作、问答、图像和办公场景",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "https://www.doubao.com/",
+      "logoText": "豆包",
+      "tags": [
+        "AI????",
+        "????",
+        "????",
+        "????"
+      ],
+      "intro": [
+        "豆包是字节跳动公司推出的多功能AI工具和免费AI聊天机器人，基于豆包大模型构建。豆包具备文案创作、PDF问答、长文本分析、学习辅助、图像生成/智能编辑、视频生成、信息搜索与整合、AI智能体等能力，能理解用户需求并提供个性化服务。豆包通过其强大的自然语言处理技术，帮助用户在工作、学习和日常生活中提高效率和创造力。",
+        "豆包最新上线的专家模式已接入豆包大模型2.0 Pro，可在豆包App、电脑客户端和网页版的「专家模式」中体验。模型多模态理解能力全面升级，在多数基准测试达SOTA水平，同时数学推理与Agent能力显著强化，在编程竞赛和复杂任务执行上表现优异。"
+      ],
+      "features": [
+        {
+          "title": "强大的对话能力：豆包能够准确理解用户提出的问题，无论是简单直接的询问还是复杂含蓄的表达。支持与用户进行连续的多轮对话，能够在对话过程中维持上下文的连贯性，提供相关且一致的回答。",
+          "text": ""
+        },
+        {
+          "title": "个性化互动：豆包可以根据用户的交流风格和偏好，调整其回答的方式，对话更加个性化和友好。豆包能够识别用户的情感状态，根据用户的情绪调整回答的语调和内容，使对话更加自然和富有同理心。",
+          "text": ""
+        },
+        {
+          "title": "文案创作与优化：豆包能够精准把握不同平台的内容风格，创作出符合平台特性和用户需求的文案，帮助提高内容的吸引力和阅读量。",
+          "text": ""
+        },
+        {
+          "title": "文档阅读与深度分析：豆包支持用户上传PDF并分析大型文件，如招股书或企业宣讲文案，快速提炼关键信息，为用户提供决策支持。",
+          "text": ""
+        },
+        {
+          "title": "文本到图片生成：豆包能够准确理解用户输入的文本描述，包括场景、对象、动作等元素。然后根据用户的描述，生成具有特定风格或情感色彩的图片。",
+          "text": ""
+        },
+        {
+          "title": "AI音乐生成：豆包音乐生成功能提供民谣、嘻哈、R&B 等 11 种音乐风格，其中还涵盖了爵士、雷鬼、电音等相对小众的曲风，用户可选择男声或女声演唱。",
+          "text": ""
+        },
+        {
+          "title": "AI编程辅助：豆包AI编程功能提供更便捷的代码导入流程，支持一键上传多个本地代码文件和实时引入GitHub开源仓库，快速获取项目的完整上下文。",
+          "text": ""
+        },
+        {
+          "title": "学习辅助工具：豆包的智能体工具可以辅助用户进行中英文作文写作，通过润色和增加细节，提升文章的质量和表达的准确性。",
+          "text": ""
+        },
+        {
+          "title": "高效信息搜索与整合：作为一款类AI搜索引擎，豆包能够快速筛选和整合网络上的有用信息，提供无广告的纯净搜索体验，帮助用户节省时间，直接获取所需资讯。",
+          "text": ""
+        },
+        {
+          "title": "日常生活与工作规划：豆包能够根据用户的需求，制定详细的日常生活和出游计划，提供景点推荐和交通信息，提升用户的生活与工作效率。",
+          "text": ""
+        },
+        {
+          "title": "个性化AI智能体创建：用户可以根据自己的需求，创建具有个性化特征的AI智能体，包括自定义头像、昵称和角色描述，以适应各种特定的使用场景。",
+          "text": ""
+        },
+        {
+          "title": "跨平台应用支持：豆包提供网页端、Chrome浏览器插件、iOS、Android、Mac和Windows端应用程序，确保用户可以在多种设备上无缝使用豆包的智能服务。",
+          "text": ""
+        },
+        {
+          "title": "专家模式：提供更专业、深入的分析与创作能力，帮助用户高效解决复杂问题，全面提升学习、工作与创作效率。",
+          "text": ""
+        }
+      ],
+      "scenarios": [
+        "???????????????????????????",
+        "????????????????????????????",
+        "???????????????????????????",
+        "?????????????????????????",
+        "?????????????????????????"
+      ],
+      "howTo": [
+        "????????????????????",
+        "??????????????????????",
+        "??????????????????????????????",
+        "???????????????????????????"
+      ],
+      "faq": [
+        {
+          "question": "??????????",
+          "answer": "??????????????????????????????????"
+        },
+        {
+          "question": "????????????",
+          "answer": "??????????????????????????????????????????????"
+        },
+        {
+          "question": "?????AI??????????",
+          "answer": "????????????????????????????????"
+        }
+      ],
+      "relatedIds": [
+        "kimi",
+        "chatgpt",
+        "claude",
+        "tongyi-qianwen"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "desc": "深度求索推出的高性能大语言模型和AI助手",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "https://chat.deepseek.com/",
+      "logoText": "DE",
+      "tags": [
+        "热门AI工具",
+        "??"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "desc": "OpenAI推出的对话式AI助手，适合写作、编程、分析和创意任务",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "",
+      "logoText": "CH",
+      "tags": [
+        "热门AI工具",
+        "??"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "desc": "Anthropic推出的AI助手，擅长长文档理解、推理和写作",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "",
+      "logoText": "CL",
+      "tags": [
+        "热门AI工具",
+        "??"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "tongyi-qianwen",
+      "name": "通义千问",
+      "desc": "阿里云推出的大模型助手，支持聊天、写作、代码和多模态创作",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "",
+      "logoText": "通义",
+      "tags": [
+        "热门AI工具",
+        "??"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "tencent-yuanbao",
+      "name": "腾讯元宝",
+      "desc": "腾讯推出的AI助手，整合搜索、文档、问答和创作能力",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "",
+      "logoText": "腾讯",
+      "tags": [
+        "热门AI工具",
+        "??"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "metaso",
+      "name": "秘塔AI搜索",
+      "desc": "AI搜索与研究助手，支持总结网页、追问和结构化答案",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "",
+      "logoText": "秘塔",
+      "tags": [
+        "热门AI工具",
+        "??"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "desc": "知名AI图像生成工具，可通过文本提示生成高质量视觉作品",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "",
+      "logoText": "MI",
+      "tags": [
+        "热门AI工具",
+        "??"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "kling-ai",
+      "name": "可灵AI",
+      "desc": "快手推出的视频生成与创意影像平台",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "",
+      "logoText": "可灵",
+      "tags": [
+        "热门AI工具",
+        "??"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "jimeng-ai",
+      "name": "即梦AI",
+      "desc": "剪映旗下AI创作平台，支持文生图、图生视频和智能画布",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "",
+      "logoText": "即梦",
+      "tags": [
+        "热门AI工具",
+        "??"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "liblibai",
+      "name": "LiblibAI",
+      "desc": "国内AI图像模型与创作社区，支持在线生图和模型资源",
+      "categoryId": "hot",
+      "categoryTitle": "热门AI工具",
+      "tag": "hot",
+      "officialUrl": "",
+      "logoText": "LI",
+      "tags": [
+        "热门AI工具",
+        "??"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "desc": "字节跳动推出的视频生成模型，适合短片、广告和创意素材制作",
+      "categoryId": "latest",
+      "categoryTitle": "最新收录",
+      "tag": "new",
+      "officialUrl": "",
+      "logoText": "SE",
+      "tags": [
+        "最新收录",
+        "?"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "desc": "面向设计任务的AI智能体，可生成品牌、海报和视觉方案",
+      "categoryId": "latest",
+      "categoryTitle": "最新收录",
+      "tag": "new",
+      "officialUrl": "",
+      "logoText": "LO",
+      "tags": [
+        "最新收录",
+        "?"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "trickle-ai",
+      "name": "Trickle AI",
+      "desc": "自然语言创建应用、网站和页面的AI构建工具",
+      "categoryId": "latest",
+      "categoryTitle": "最新收录",
+      "tag": "new",
+      "officialUrl": "",
+      "logoText": "TR",
+      "tags": [
+        "最新收录",
+        "?"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "same-new",
+      "name": "Same.new",
+      "desc": "输入网址即可复刻前端页面的AI网页生成工具",
+      "categoryId": "latest",
+      "categoryTitle": "最新收录",
+      "tag": "new",
+      "officialUrl": "",
+      "logoText": "SA",
+      "tags": [
+        "最新收录",
+        "?"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "dia-browser",
+      "name": "Dia Browser",
+      "desc": "The Browser Company推出的AI浏览器，内置智能辅助能力",
+      "categoryId": "latest",
+      "categoryTitle": "最新收录",
+      "tag": "new",
+      "officialUrl": "",
+      "logoText": "DI",
+      "tags": [
+        "最新收录",
+        "?"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "genspark-ai-sheets",
+      "name": "Genspark AI Sheets",
+      "desc": "支持AI处理数据、生成表格和自动化研究的智能表格工具",
+      "categoryId": "latest",
+      "categoryTitle": "最新收录",
+      "tag": "new",
+      "officialUrl": "",
+      "logoText": "GE",
+      "tags": [
+        "最新收录",
+        "?"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "seko",
+      "name": "Seko",
+      "desc": "AI视频创作工具，支持创意脚本和影像生成",
+      "categoryId": "latest",
+      "categoryTitle": "最新收录",
+      "tag": "new",
+      "officialUrl": "",
+      "logoText": "SE",
+      "tags": [
+        "最新收录",
+        "?"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "trae-2-0",
+      "name": "Trae 2.0",
+      "desc": "字节跳动旗下AI编程工具，支持项目级代码理解与生成",
+      "categoryId": "latest",
+      "categoryTitle": "最新收录",
+      "tag": "new",
+      "officialUrl": "",
+      "logoText": "TR",
+      "tags": [
+        "最新收录",
+        "?"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "desc": "嵌入Notion工作区的写作、总结和知识管理助手",
+      "categoryId": "writing",
+      "categoryTitle": "AI写作工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "NO",
+      "tags": [
+        "AI写作工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "desc": "营销文案、品牌内容和长文写作AI平台",
+      "categoryId": "writing",
+      "categoryTitle": "AI写作工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "JA",
+      "tags": [
+        "AI写作工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "desc": "用于广告、邮件、社媒和销售文案的AI写作工具",
+      "categoryId": "writing",
+      "categoryTitle": "AI写作工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CO",
+      "tags": [
+        "AI写作工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "desc": "英文写作润色、语法检查和语气优化助手",
+      "categoryId": "writing",
+      "categoryTitle": "AI写作工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GR",
+      "tags": [
+        "AI写作工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "desc": "英文改写、摘要、引用和语法辅助工具",
+      "categoryId": "writing",
+      "categoryTitle": "AI写作工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "QU",
+      "tags": [
+        "AI写作工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "writesonic",
+      "name": "Writesonic",
+      "desc": "面向博客、广告和SEO内容生产的AI写作平台",
+      "categoryId": "writing",
+      "categoryTitle": "AI写作工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "WR",
+      "tags": [
+        "AI写作工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "huoshan-writing",
+      "name": "火山写作",
+      "desc": "中文写作润色、校对、扩写和风格转换工具",
+      "categoryId": "writing",
+      "categoryTitle": "AI写作工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "火山",
+      "tags": [
+        "AI写作工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "xinhua-miaobi",
+      "name": "新华妙笔",
+      "desc": "面向公文、新闻和政企场景的中文智能写作平台",
+      "categoryId": "writing",
+      "categoryTitle": "AI写作工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "新华",
+      "tags": [
+        "AI写作工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "midjourney-image",
+      "name": "Midjourney",
+      "desc": "文本生成图像工具，适合插画、概念图和商业视觉",
+      "categoryId": "image",
+      "categoryTitle": "AI图像工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "MI",
+      "tags": [
+        "AI图像工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "desc": "开源AI绘画模型生态，可本地部署和深度定制",
+      "categoryId": "image",
+      "categoryTitle": "AI图像工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "ST",
+      "tags": [
+        "AI图像工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "dallc2b7e",
+      "name": "DALL·E",
+      "desc": "OpenAI图像生成与编辑模型，可生成多风格图像",
+      "categoryId": "image",
+      "categoryTitle": "AI图像工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "DA",
+      "tags": [
+        "AI图像工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "desc": "Adobe推出的生成式图像、填充和设计素材工具",
+      "categoryId": "image",
+      "categoryTitle": "AI图像工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "AD",
+      "tags": [
+        "AI图像工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "leonardo-ai",
+      "name": "Leonardo.Ai",
+      "desc": "游戏、产品、角色和插画方向的AI图像创作平台",
+      "categoryId": "image",
+      "categoryTitle": "AI图像工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "LE",
+      "tags": [
+        "AI图像工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "gaoding-ai",
+      "name": "稿定AI",
+      "desc": "在线设计平台内置AI图片、海报和营销素材生成能力",
+      "categoryId": "image",
+      "categoryTitle": "AI图像工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "稿定",
+      "tags": [
+        "AI图像工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "wenxin-yige",
+      "name": "文心一格",
+      "desc": "百度推出的AI艺术和图像生成平台",
+      "categoryId": "image",
+      "categoryTitle": "AI图像工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "文心",
+      "tags": [
+        "AI图像工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "meitu-whee",
+      "name": "美图WHEE",
+      "desc": "美图推出的AI视觉创作工具，适合图片和设计生成",
+      "categoryId": "image",
+      "categoryTitle": "AI图像工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "美图",
+      "tags": [
+        "AI图像工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "desc": "AI视频生成、编辑、抠像和视觉特效创作平台",
+      "categoryId": "video",
+      "categoryTitle": "AI视频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "RU",
+      "tags": [
+        "AI视频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "desc": "通过文本或图片生成短视频的AI创作工具",
+      "categoryId": "video",
+      "categoryTitle": "AI视频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "PI",
+      "tags": [
+        "AI视频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "desc": "高质量文生视频和图生视频模型",
+      "categoryId": "video",
+      "categoryTitle": "AI视频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "LU",
+      "tags": [
+        "AI视频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "kling-ai-video",
+      "name": "可灵AI",
+      "desc": "中文场景常用AI视频生成工具，支持图生视频和镜头控制",
+      "categoryId": "video",
+      "categoryTitle": "AI视频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "可灵",
+      "tags": [
+        "AI视频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "jimeng-ai-video",
+      "name": "即梦AI",
+      "desc": "字节旗下创意视频和AI视觉生成平台",
+      "categoryId": "video",
+      "categoryTitle": "AI视频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "即梦",
+      "tags": [
+        "AI视频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "hailuo-ai-video",
+      "name": "海螺AI视频",
+      "desc": "MiniMax推出的AI视频生成工具",
+      "categoryId": "video",
+      "categoryTitle": "AI视频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "海螺",
+      "tags": [
+        "AI视频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "desc": "AI数字人视频、口播和多语言翻译工具",
+      "categoryId": "video",
+      "categoryTitle": "AI视频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "HE",
+      "tags": [
+        "AI视频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "jianying-ai",
+      "name": "剪映AI",
+      "desc": "剪映内置的智能剪辑、字幕、脚本和视频生成能力",
+      "categoryId": "video",
+      "categoryTitle": "AI视频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "剪映",
+      "tags": [
+        "AI视频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "desc": "微软Office、Windows和企业应用中的AI助手",
+      "categoryId": "office",
+      "categoryTitle": "AI办公工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "MI",
+      "tags": [
+        "AI办公工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "feishu-minutes",
+      "name": "飞书妙记",
+      "desc": "会议录音转写、总结和待办提取工具",
+      "categoryId": "office",
+      "categoryTitle": "AI办公工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "飞书",
+      "tags": [
+        "AI办公工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "desc": "AI生成演示文稿、网页和文档的办公创作工具",
+      "categoryId": "office",
+      "categoryTitle": "AI办公工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GA",
+      "tags": [
+        "AI办公工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "tome",
+      "name": "Tome",
+      "desc": "基于AI生成故事化演示文稿和视觉页面",
+      "categoryId": "office",
+      "categoryTitle": "AI办公工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "TO",
+      "tags": [
+        "AI办公工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "wps-ai",
+      "name": "WPS AI",
+      "desc": "WPS办公套件中的写作、表格和PPT助手",
+      "categoryId": "office",
+      "categoryTitle": "AI办公工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "WP",
+      "tags": [
+        "AI办公工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "dingtalk-ai",
+      "name": "钉钉AI助理",
+      "desc": "面向组织协同、会议和知识库的办公AI助手",
+      "categoryId": "office",
+      "categoryTitle": "AI办公工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "钉钉",
+      "tags": [
+        "AI办公工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "quark-scan-ai",
+      "name": "夸克扫描王AI",
+      "desc": "文档扫描、识别、总结和格式转换工具",
+      "categoryId": "office",
+      "categoryTitle": "AI办公工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "夸克",
+      "tags": [
+        "AI办公工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "chatpdf",
+      "name": "ChatPDF",
+      "desc": "上传PDF后进行问答、摘要和引用定位的AI工具",
+      "categoryId": "office",
+      "categoryTitle": "AI办公工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CH",
+      "tags": [
+        "AI办公工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "chatgpt-chat",
+      "name": "ChatGPT",
+      "desc": "通用对话、分析、写作和编程AI助手",
+      "categoryId": "chat",
+      "categoryTitle": "AI聊天助手",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CH",
+      "tags": [
+        "AI聊天助手"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "claude-chat",
+      "name": "Claude",
+      "desc": "长文本理解和高质量写作推理助手",
+      "categoryId": "chat",
+      "categoryTitle": "AI聊天助手",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CL",
+      "tags": [
+        "AI聊天助手"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "desc": "Google推出的多模态AI助手",
+      "categoryId": "chat",
+      "categoryTitle": "AI聊天助手",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GE",
+      "tags": [
+        "AI聊天助手"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "desc": "聚合多种AI模型的问答和机器人平台",
+      "categoryId": "chat",
+      "categoryTitle": "AI聊天助手",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "PO",
+      "tags": [
+        "AI聊天助手"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "desc": "带来源引用的AI答案引擎和研究助手",
+      "categoryId": "chat",
+      "categoryTitle": "AI聊天助手",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "PE",
+      "tags": [
+        "AI聊天助手"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "tiangong-ai",
+      "name": "天工AI",
+      "desc": "昆仑万维推出的AI助手，覆盖搜索、写作和音乐等能力",
+      "categoryId": "chat",
+      "categoryTitle": "AI聊天助手",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "天工",
+      "tags": [
+        "AI聊天助手"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "ernie-bot",
+      "name": "文心一言",
+      "desc": "百度推出的中文大模型聊天助手",
+      "categoryId": "chat",
+      "categoryTitle": "AI聊天助手",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "文心",
+      "tags": [
+        "AI聊天助手"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "sparkdesk",
+      "name": "讯飞星火",
+      "desc": "科大讯飞推出的认知大模型助手",
+      "categoryId": "chat",
+      "categoryTitle": "AI聊天助手",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "讯飞",
+      "tags": [
+        "AI聊天助手"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "coze",
+      "name": "Coze",
+      "desc": "字节跳动推出的AI Bot与智能体搭建平台",
+      "categoryId": "agent",
+      "categoryTitle": "AI智能体",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CO",
+      "tags": [
+        "AI智能体"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "desc": "开源LLM应用开发平台，支持工作流、RAG和Agent",
+      "categoryId": "agent",
+      "categoryTitle": "AI智能体",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "DI",
+      "tags": [
+        "AI智能体"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "coze-cn",
+      "name": "扣子",
+      "desc": "面向国内用户的AI智能体创建和发布平台",
+      "categoryId": "agent",
+      "categoryTitle": "AI智能体",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "扣子",
+      "tags": [
+        "AI智能体"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "autogpt",
+      "name": "AutoGPT",
+      "desc": "开源自治智能体项目，可分解任务并调用工具执行",
+      "categoryId": "agent",
+      "categoryTitle": "AI智能体",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "AU",
+      "tags": [
+        "AI智能体"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "desc": "通用AI智能体产品，面向复杂任务执行和自动化",
+      "categoryId": "agent",
+      "categoryTitle": "AI智能体",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "MA",
+      "tags": [
+        "AI智能体"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "flowith",
+      "name": "Flowith",
+      "desc": "节点式AI工作流和知识协作平台",
+      "categoryId": "agent",
+      "categoryTitle": "AI智能体",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "FL",
+      "tags": [
+        "AI智能体"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "desc": "面向研究、搜索和自动生成页面的AI智能体平台",
+      "categoryId": "agent",
+      "categoryTitle": "AI智能体",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GE",
+      "tags": [
+        "AI智能体"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "desc": "用于构建可控Agent工作流的开发框架",
+      "categoryId": "agent",
+      "categoryTitle": "AI智能体",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "LA",
+      "tags": [
+        "AI智能体"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "desc": "主流AI代码补全、解释和编程助手",
+      "categoryId": "coding",
+      "categoryTitle": "AI编程工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GI",
+      "tags": [
+        "AI编程工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "desc": "内置AI Agent的代码编辑器，支持项目级理解和修改",
+      "categoryId": "coding",
+      "categoryTitle": "AI编程工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CU",
+      "tags": [
+        "AI编程工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "trae",
+      "name": "Trae",
+      "desc": "字节跳动推出的AI原生IDE和编程助手",
+      "categoryId": "coding",
+      "categoryTitle": "AI编程工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "TR",
+      "tags": [
+        "AI编程工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "codeium",
+      "name": "Codeium",
+      "desc": "代码补全、聊天和企业级AI编程工具",
+      "categoryId": "coding",
+      "categoryTitle": "AI编程工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CO",
+      "tags": [
+        "AI编程工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "desc": "面向团队的AI代码补全和私有化编程助手",
+      "categoryId": "coding",
+      "categoryTitle": "AI编程工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "TA",
+      "tags": [
+        "AI编程工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "replit-agent",
+      "name": "Replit Agent",
+      "desc": "从自然语言生成、运行和部署应用的AI开发工具",
+      "categoryId": "coding",
+      "categoryTitle": "AI编程工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "RE",
+      "tags": [
+        "AI编程工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "bolt-new",
+      "name": "Bolt.new",
+      "desc": "浏览器内生成并运行Web应用的AI编程工具",
+      "categoryId": "coding",
+      "categoryTitle": "AI编程工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "BO",
+      "tags": [
+        "AI编程工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "desc": "通过对话生成全栈应用和前端界面的AI构建平台",
+      "categoryId": "coding",
+      "categoryTitle": "AI编程工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "LO",
+      "tags": [
+        "AI编程工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "openai-platform",
+      "name": "OpenAI Platform",
+      "desc": "OpenAI模型API、工具调用、向量存储和应用开发平台",
+      "categoryId": "dev",
+      "categoryTitle": "AI开发平台",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "OP",
+      "tags": [
+        "AI开发平台"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "anthropic-console",
+      "name": "Anthropic Console",
+      "desc": "Claude模型API、提示调试和应用开发控制台",
+      "categoryId": "dev",
+      "categoryTitle": "AI开发平台",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "AN",
+      "tags": [
+        "AI开发平台"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "google-ai-studio",
+      "name": "Google AI Studio",
+      "desc": "Gemini模型的原型开发和API管理平台",
+      "categoryId": "dev",
+      "categoryTitle": "AI开发平台",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GO",
+      "tags": [
+        "AI开发平台"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "aliyun-bailian",
+      "name": "阿里云百炼",
+      "desc": "通义大模型开发、评测、RAG和应用构建平台",
+      "categoryId": "dev",
+      "categoryTitle": "AI开发平台",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "阿里",
+      "tags": [
+        "AI开发平台"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "volcengine-ark",
+      "name": "火山方舟",
+      "desc": "字节跳动旗下大模型服务和AI应用开发平台",
+      "categoryId": "dev",
+      "categoryTitle": "AI开发平台",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "火山",
+      "tags": [
+        "AI开发平台"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "baidu-qianfan",
+      "name": "百度千帆",
+      "desc": "企业级大模型开发、精调和部署平台",
+      "categoryId": "dev",
+      "categoryTitle": "AI开发平台",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "百度",
+      "tags": [
+        "AI开发平台"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "siliconflow",
+      "name": "硅基流动",
+      "desc": "国内模型API聚合、推理加速和开发平台",
+      "categoryId": "dev",
+      "categoryTitle": "AI开发平台",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "硅基",
+      "tags": [
+        "AI开发平台"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "hugging-face",
+      "name": "Hugging Face",
+      "desc": "模型、数据集、Spaces和开源AI社区平台",
+      "categoryId": "dev",
+      "categoryTitle": "AI开发平台",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "HU",
+      "tags": [
+        "AI开发平台"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "figma-ai",
+      "name": "Figma AI",
+      "desc": "Figma内置的设计生成、内容替换和工作流辅助能力",
+      "categoryId": "design",
+      "categoryTitle": "AI设计工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "FI",
+      "tags": [
+        "AI设计工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "canva-ai",
+      "name": "Canva AI",
+      "desc": "在线设计平台内置的AI图片、文案和版式工具",
+      "categoryId": "design",
+      "categoryTitle": "AI设计工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CA",
+      "tags": [
+        "AI设计工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "uizard",
+      "name": "Uizard",
+      "desc": "从草图或文本生成UI界面的AI设计工具",
+      "categoryId": "design",
+      "categoryTitle": "AI设计工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "UI",
+      "tags": [
+        "AI设计工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "galileo-ai",
+      "name": "Galileo AI",
+      "desc": "通过文本生成移动端和Web界面设计稿",
+      "categoryId": "design",
+      "categoryTitle": "AI设计工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GA",
+      "tags": [
+        "AI设计工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "motiff",
+      "name": "Motiff",
+      "desc": "面向UI设计协作的工具，集成AI生成与编辑能力",
+      "categoryId": "design",
+      "categoryTitle": "AI设计工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "MO",
+      "tags": [
+        "AI设计工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "mastergo-ai",
+      "name": "MasterGo AI",
+      "desc": "国产在线设计协作平台的AI设计助手",
+      "categoryId": "design",
+      "categoryTitle": "AI设计工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "MA",
+      "tags": [
+        "AI设计工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "js-design-ai",
+      "name": "即时设计AI",
+      "desc": "中文设计协作平台中的AI生成和插件能力",
+      "categoryId": "design",
+      "categoryTitle": "AI设计工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "即时",
+      "tags": [
+        "AI设计工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "gaoding-design",
+      "name": "稿定设计",
+      "desc": "营销图、电商图和海报在线设计平台",
+      "categoryId": "design",
+      "categoryTitle": "AI设计工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "稿定",
+      "tags": [
+        "AI设计工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "desc": "通过文本生成歌曲和音乐作品的AI音乐平台",
+      "categoryId": "audio",
+      "categoryTitle": "AI音频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "SU",
+      "tags": [
+        "AI音频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "desc": "AI音乐生成工具，支持多种风格歌曲创作",
+      "categoryId": "audio",
+      "categoryTitle": "AI音频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "UD",
+      "tags": [
+        "AI音频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "desc": "高质量AI语音合成、克隆和多语言配音平台",
+      "categoryId": "audio",
+      "categoryTitle": "AI音频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "EL",
+      "tags": [
+        "AI音频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "resemble-ai",
+      "name": "Resemble AI",
+      "desc": "语音克隆、配音和品牌声音生成工具",
+      "categoryId": "audio",
+      "categoryTitle": "AI音频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "RE",
+      "tags": [
+        "AI音频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "adobe-podcast",
+      "name": "Adobe Podcast",
+      "desc": "AI音频增强、降噪和播客制作工具",
+      "categoryId": "audio",
+      "categoryTitle": "AI音频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "AD",
+      "tags": [
+        "AI音频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "iflytek-voice",
+      "name": "讯飞配音",
+      "desc": "中文AI配音、主播音色和有声内容制作平台",
+      "categoryId": "audio",
+      "categoryTitle": "AI音频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "讯飞",
+      "tags": [
+        "AI音频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "netease-tianyin",
+      "name": "网易天音",
+      "desc": "网易推出的AI音乐创作平台",
+      "categoryId": "audio",
+      "categoryTitle": "AI音频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "网易",
+      "tags": [
+        "AI音频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "mubert",
+      "name": "Mubert",
+      "desc": "生成背景音乐、循环音乐和商用音频素材的AI工具",
+      "categoryId": "audio",
+      "categoryTitle": "AI音频工具",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "MU",
+      "tags": [
+        "AI音频工具"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "perplexity-search",
+      "name": "Perplexity",
+      "desc": "基于来源引用的AI搜索和研究助手",
+      "categoryId": "search",
+      "categoryTitle": "AI搜索引擎",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "PE",
+      "tags": [
+        "AI搜索引擎"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "metaso-search",
+      "name": "秘塔AI搜索",
+      "desc": "中文AI搜索，支持学术、网页和文档问答",
+      "categoryId": "search",
+      "categoryTitle": "AI搜索引擎",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "秘塔",
+      "tags": [
+        "AI搜索引擎"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "google-ai-mode",
+      "name": "Google AI Mode",
+      "desc": "Google搜索中的AI答案和探索体验",
+      "categoryId": "search",
+      "categoryTitle": "AI搜索引擎",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GO",
+      "tags": [
+        "AI搜索引擎"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "bing-copilot",
+      "name": "Bing Copilot",
+      "desc": "微软搜索与AI助手结合的问答搜索工具",
+      "categoryId": "search",
+      "categoryTitle": "AI搜索引擎",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "BI",
+      "tags": [
+        "AI搜索引擎"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "komo-search",
+      "name": "Komo Search",
+      "desc": "AI搜索、探索和信息整理工具",
+      "categoryId": "search",
+      "categoryTitle": "AI搜索引擎",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "KO",
+      "tags": [
+        "AI搜索引擎"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "felo",
+      "name": "Felo",
+      "desc": "支持多语言搜索、总结和思维导图生成的AI搜索引擎",
+      "categoryId": "search",
+      "categoryTitle": "AI搜索引擎",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "FE",
+      "tags": [
+        "AI搜索引擎"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "tiangong-search",
+      "name": "天工AI搜索",
+      "desc": "中文AI搜索与智能问答产品",
+      "categoryId": "search",
+      "categoryTitle": "AI搜索引擎",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "天工",
+      "tags": [
+        "AI搜索引擎"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "desc": "面向论文和研究结论的AI学术搜索引擎",
+      "categoryId": "search",
+      "categoryTitle": "AI搜索引擎",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CO",
+      "tags": [
+        "AI搜索引擎"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "deeplearning-ai",
+      "name": "DeepLearning.AI",
+      "desc": "吴恩达团队推出的AI课程和实践学习平台",
+      "categoryId": "learn",
+      "categoryTitle": "AI学习网站",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "DE",
+      "tags": [
+        "AI学习网站"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "openai-cookbook",
+      "name": "OpenAI Cookbook",
+      "desc": "OpenAI API示例、模式和工程实践集合",
+      "categoryId": "learn",
+      "categoryTitle": "AI学习网站",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "OP",
+      "tags": [
+        "AI学习网站"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "hugging-face-learn",
+      "name": "Hugging Face Learn",
+      "desc": "模型、Transformers和开源AI生态学习资源",
+      "categoryId": "learn",
+      "categoryTitle": "AI学习网站",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "HU",
+      "tags": [
+        "AI学习网站"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "kaggle-learn",
+      "name": "Kaggle Learn",
+      "desc": "机器学习、数据科学和AI实践课程",
+      "categoryId": "learn",
+      "categoryTitle": "AI学习网站",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "KA",
+      "tags": [
+        "AI学习网站"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "coursera-ai",
+      "name": "Coursera AI",
+      "desc": "系统化AI、机器学习和深度学习在线课程",
+      "categoryId": "learn",
+      "categoryTitle": "AI学习网站",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CO",
+      "tags": [
+        "AI学习网站"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "d2l-ai",
+      "name": "动手学深度学习",
+      "desc": "开源中文深度学习教材和代码实践",
+      "categoryId": "learn",
+      "categoryTitle": "AI学习网站",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "动手",
+      "tags": [
+        "AI学习网站"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "jiqizhixin-sota",
+      "name": "机器之心SOTA模型",
+      "desc": "AI论文、模型和行业资讯学习入口",
+      "categoryId": "learn",
+      "categoryTitle": "AI学习网站",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "机器",
+      "tags": [
+        "AI学习网站"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "aiyanxishe",
+      "name": "AI研习社",
+      "desc": "中文AI课程、技术社区和学习资源",
+      "categoryId": "learn",
+      "categoryTitle": "AI学习网站",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "AI",
+      "tags": [
+        "AI学习网站"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o",
+      "desc": "OpenAI多模态模型，支持文本、图像和实时交互能力",
+      "categoryId": "model",
+      "categoryTitle": "AI训练模型",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GP",
+      "tags": [
+        "AI训练模型"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "claude-sonnet",
+      "name": "Claude Sonnet",
+      "desc": "Anthropic高性能模型，擅长写作、推理和代码",
+      "categoryId": "model",
+      "categoryTitle": "AI训练模型",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CL",
+      "tags": [
+        "AI训练模型"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "gemini-model",
+      "name": "Gemini",
+      "desc": "Google多模态模型系列，覆盖文本、图像和视频能力",
+      "categoryId": "model",
+      "categoryTitle": "AI训练模型",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GE",
+      "tags": [
+        "AI训练模型"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "deepseek-r1",
+      "name": "DeepSeek-R1",
+      "desc": "开源推理模型，适合复杂推理与数学代码任务",
+      "categoryId": "model",
+      "categoryTitle": "AI训练模型",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "DE",
+      "tags": [
+        "AI训练模型"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "desc": "阿里通义千问开源模型系列",
+      "categoryId": "model",
+      "categoryTitle": "AI训练模型",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "QW",
+      "tags": [
+        "AI训练模型"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "llama",
+      "name": "Llama",
+      "desc": "Meta开源大语言模型系列",
+      "categoryId": "model",
+      "categoryTitle": "AI训练模型",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "LL",
+      "tags": [
+        "AI训练模型"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral",
+      "desc": "欧洲AI公司推出的开源和商业模型系列",
+      "categoryId": "model",
+      "categoryTitle": "AI训练模型",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "MI",
+      "tags": [
+        "AI训练模型"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "stable-diffusion-xl",
+      "name": "Stable Diffusion XL",
+      "desc": "高质量开源图像生成模型",
+      "categoryId": "model",
+      "categoryTitle": "AI训练模型",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "ST",
+      "tags": [
+        "AI训练模型"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "gptzero",
+      "name": "GPTZero",
+      "desc": "面向教育和写作场景的AI文本检测工具",
+      "categoryId": "detect",
+      "categoryTitle": "AI内容检测",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "GP",
+      "tags": [
+        "AI内容检测"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "originality-ai",
+      "name": "Originality.ai",
+      "desc": "AI内容检测、抄袭检测和事实核查工具",
+      "categoryId": "detect",
+      "categoryTitle": "AI内容检测",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "OR",
+      "tags": [
+        "AI内容检测"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "zerogpt",
+      "name": "ZeroGPT",
+      "desc": "检测文本是否由AI生成的在线工具",
+      "categoryId": "detect",
+      "categoryTitle": "AI内容检测",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "ZE",
+      "tags": [
+        "AI内容检测"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "copyleaks",
+      "name": "Copyleaks",
+      "desc": "AI文本检测、代码和论文相似度检测平台",
+      "categoryId": "detect",
+      "categoryTitle": "AI内容检测",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CO",
+      "tags": [
+        "AI内容检测"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "turnitin-ai",
+      "name": "Turnitin AI",
+      "desc": "面向教育机构的AI写作检测能力",
+      "categoryId": "detect",
+      "categoryTitle": "AI内容检测",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "TU",
+      "tags": [
+        "AI内容检测"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "winston-ai",
+      "name": "Winston AI",
+      "desc": "AI内容检测和可读性分析工具",
+      "categoryId": "detect",
+      "categoryTitle": "AI内容检测",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "WI",
+      "tags": [
+        "AI内容检测"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "hive-moderation",
+      "name": "Hive Moderation",
+      "desc": "AI图像、文本和内容安全检测API",
+      "categoryId": "detect",
+      "categoryTitle": "AI内容检测",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "HI",
+      "tags": [
+        "AI内容检测"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "content-at-scale",
+      "name": "Content at Scale",
+      "desc": "AI写作检测和内容评估工具",
+      "categoryId": "detect",
+      "categoryTitle": "AI内容检测",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "CO",
+      "tags": [
+        "AI内容检测"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "prompthero",
+      "name": "PromptHero",
+      "desc": "AI绘画提示词社区，覆盖Midjourney和Stable Diffusion",
+      "categoryId": "prompt",
+      "categoryTitle": "AI提示指令",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "PR",
+      "tags": [
+        "AI提示指令"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "flowgpt",
+      "name": "FlowGPT",
+      "desc": "提示词分享、AI角色和工作流社区",
+      "categoryId": "prompt",
+      "categoryTitle": "AI提示指令",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "FL",
+      "tags": [
+        "AI提示指令"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "snack-prompt",
+      "name": "Snack Prompt",
+      "desc": "ChatGPT提示词社区和收藏工具",
+      "categoryId": "prompt",
+      "categoryTitle": "AI提示指令",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "SN",
+      "tags": [
+        "AI提示指令"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "aiprm",
+      "name": "AIPRM",
+      "desc": "浏览器扩展形式的提示词模板库",
+      "categoryId": "prompt",
+      "categoryTitle": "AI提示指令",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "AI",
+      "tags": [
+        "AI提示指令"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "langgpt",
+      "name": "LangGPT",
+      "desc": "结构化中文提示词方法和模板项目",
+      "categoryId": "prompt",
+      "categoryTitle": "AI提示指令",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "LA",
+      "tags": [
+        "AI提示指令"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "promptbase",
+      "name": "PromptBase",
+      "desc": "提示词交易与模板市场",
+      "categoryId": "prompt",
+      "categoryTitle": "AI提示指令",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "PR",
+      "tags": [
+        "AI提示指令"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "prompt-engineering-guide",
+      "name": "提示工程指南",
+      "desc": "系统介绍提示工程技巧、模式和案例的开源教程",
+      "categoryId": "prompt",
+      "categoryTitle": "AI提示指令",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "提示",
+      "tags": [
+        "AI提示指令"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    },
+    {
+      "id": "awesome-chatgpt-prompts",
+      "name": "Awesome ChatGPT Prompts",
+      "desc": "常用ChatGPT角色提示词开源集合",
+      "categoryId": "prompt",
+      "categoryTitle": "AI提示指令",
+      "tag": "",
+      "officialUrl": "",
+      "logoText": "AW",
+      "tags": [
+        "AI提示指令"
+      ],
+      "intro": [],
+      "features": [],
+      "scenarios": [],
+      "howTo": [],
+      "faq": [],
+      "relatedIds": []
+    }
+  ]
+}

@@ -2,7 +2,7 @@ const palette = ["#2f74ff", "#23b384", "#ff9f1a", "#7b61ff", "#e64f71", "#20a4f3
 
 const quickLinks = ["Kimi", "豆包", "DeepSeek", "即梦AI", "通义千问", "腾讯元宝", "秘塔AI", "可灵AI", "ChatGPT", "Claude"];
 
-const sections = [
+let sections = [
   {
     id: "hot",
     title: "热门AI工具",
@@ -261,6 +261,115 @@ let lastSidebarTarget = "";
 let lastSidebarTime = 0;
 let activeScrollToken = 0;
 
+const readableToolIds = {
+  豆包: "doubao",
+  通义千问: "tongyi-qianwen",
+  腾讯元宝: "tencent-yuanbao",
+  秘塔AI搜索: "metaso",
+  可灵AI: "kling-ai",
+  即梦AI: "jimeng-ai",
+  火山写作: "huoshan-writing",
+  新华妙笔: "xinhua-miaobi",
+  稿定AI: "gaoding-ai",
+  文心一格: "wenxin-yige",
+  美图WHEE: "meitu-whee",
+  海螺AI视频: "hailuo-ai-video",
+  剪映AI: "jianying-ai",
+  飞书妙记: "feishu-minutes",
+  钉钉AI助理: "dingtalk-ai",
+  夸克扫描王AI: "quark-scan-ai",
+  天工AI: "tiangong-ai",
+  文心一言: "ernie-bot",
+  讯飞星火: "sparkdesk",
+  扣子: "coze-cn",
+  阿里云百炼: "aliyun-bailian",
+  火山方舟: "volcengine-ark",
+  百度千帆: "baidu-qianfan",
+  硅基流动: "siliconflow",
+  即时设计AI: "js-design-ai",
+  稿定设计: "gaoding-design",
+  讯飞配音: "iflytek-voice",
+  网易天音: "netease-tianyin",
+  天工AI搜索: "tiangong-search",
+  动手学深度学习: "d2l-ai",
+  机器之心SOTA模型: "jiqizhixin-sota",
+  AI研习社: "aiyanxishe",
+  提示工程指南: "prompt-engineering-guide"
+};
+
+function slugifyToolName(name) {
+  if (readableToolIds[name]) return readableToolIds[name];
+  if (/[^a-z0-9+_. -]/i.test(name)) {
+    return encodeURIComponent(name).replace(/%/g, "").toLowerCase();
+  }
+  return (
+    name
+      .toLowerCase()
+      .replace(/\+/g, "plus")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") ||
+    encodeURIComponent(name).replace(/%/g, "").toLowerCase()
+  );
+}
+
+let toolDetailIds = new Map();
+
+function rebuildToolDetailIds() {
+  const counts = new Map();
+  toolDetailIds = new Map();
+
+  sections.forEach((section) => {
+    section.tools.forEach(([name, desc, tag, id]) => {
+      const baseId = id || slugifyToolName(name);
+      const count = counts.get(baseId) || 0;
+      counts.set(baseId, count + 1);
+      toolDetailIds.set(`${section.id}::${name}`, count ? `${baseId}-${section.id}` : baseId);
+    });
+  });
+}
+
+function buildSectionsFromTools(tools) {
+  if (!Array.isArray(tools) || !tools.length) return sections;
+
+  const existingOrder = new Map(sections.map((section, index) => [section.id, index]));
+  const grouped = new Map();
+
+  tools.forEach((tool) => {
+    if (!tool || !tool.id || !tool.categoryId) return;
+    if (!grouped.has(tool.categoryId)) {
+      grouped.set(tool.categoryId, {
+        id: tool.categoryId,
+        title: tool.categoryTitle || tool.categoryId,
+        tools: []
+      });
+    }
+
+    grouped.get(tool.categoryId).tools.push([
+      tool.name || tool.id,
+      tool.desc || "",
+      tool.tag || "",
+      tool.id
+    ]);
+  });
+
+  return Array.from(grouped.values()).sort((a, b) => {
+    const orderA = existingOrder.has(a.id) ? existingOrder.get(a.id) : Number.MAX_SAFE_INTEGER;
+    const orderB = existingOrder.has(b.id) ? existingOrder.get(b.id) : Number.MAX_SAFE_INTEGER;
+    return orderA - orderB;
+  });
+}
+
+async function loadSectionsFromJson() {
+  const response = await fetch("./api/tools");
+  if (!response.ok) throw new Error("Unable to load tools data");
+  const data = await response.json();
+  sections = buildSectionsFromTools(data.tools);
+}
+
+function getToolDetailUrl(sectionId, name, id) {
+  return `sites/detail.html?id=${encodeURIComponent(id || toolDetailIds.get(`${sectionId}::${name}`) || slugifyToolName(name))}`;
+}
+
 function initials(name) {
   const clean = name.replace(/[·. -]/g, "");
   if (/^[a-z0-9]/i.test(clean)) return clean.slice(0, 2).toUpperCase();
@@ -485,11 +594,12 @@ function renderSections(filter = "") {
       </div>
       <div class="tool-grid">
         ${tools
-          .map(([name, desc, tag], index) => {
+          .map(([name, desc, tag, id], index) => {
             const color = palette[(index + section.title.length) % palette.length];
             const label = tag ? `<span class="tag ${tag === "hot" ? "hot" : ""}">${tag === "hot" ? "热门" : "新"}</span>` : "";
+            const href = getToolDetailUrl(section.id, name, id);
             return `
-              <a class="tool-card" href="#" aria-label="${name}">
+              <a class="tool-card" href="${href}" aria-label="${name}" title="查看详情：${name}">
                 <span class="tool-icon" style="background:${color}">${initials(name)}</span>
                 <span class="tool-body">
                   <h3 class="tool-title">${name}${label}</h3>
@@ -582,11 +692,22 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
 
 window.addEventListener("scroll", updateActiveByScroll, { passive: true });
 
-renderNav();
-bindSidebarCoordinateNavigation();
-renderSections();
-setActiveNav("hot");
+async function init() {
+  try {
+    await loadSectionsFromJson();
+  } catch (error) {
+    searchStatus.textContent = "无法加载 JSON 数据，已显示内置备用工具列表。";
+  }
 
-if (location.hash) {
-  requestAnimationFrame(() => scrollToSection(location.hash.slice(1)));
+  rebuildToolDetailIds();
+  renderNav();
+  bindSidebarCoordinateNavigation();
+  renderSections();
+  setActiveNav("hot");
+
+  if (location.hash) {
+    requestAnimationFrame(() => scrollToSection(location.hash.slice(1)));
+  }
 }
+
+init();

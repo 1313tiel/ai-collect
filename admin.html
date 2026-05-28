@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>本地内容编辑 | AI工具集</title>
+    <link rel="stylesheet" href="./admin.css?v=20260526-dynamic-detail" />
+  </head>
+  <body>
+    <aside class="admin-sidebar">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark">AI</span>
+        <span>
+          <strong>内容编辑</strong>
+          <small>本地 JSON 管理</small>
+        </span>
+      </a>
+      <div class="admin-search">
+        <input id="toolSearch" type="search" placeholder="搜索工具名称或分类" autocomplete="off" />
+      </div>
+      <nav id="toolList" class="tool-list" aria-label="工具列表"></nav>
+    </aside>
+
+    <main class="admin-page">
+      <header class="admin-topbar">
+        <div>
+          <strong>本地内容编辑页</strong>
+          <span>保存后会写入 data/tools.json</span>
+        </div>
+        <nav>
+          <a href="./index.html">返回首页</a>
+          <a id="previewLink" href="./sites/detail.html">预览详情</a>
+        </nav>
+      </header>
+
+      <form id="editorForm" class="editor-form">
+        <section class="panel hero-panel">
+          <div class="tool-logo" id="logoPreview">AI</div>
+          <div>
+            <label>
+              工具名称
+              <input id="name" name="name" />
+            </label>
+            <label>
+              简短描述
+              <textarea id="desc" name="desc" rows="3"></textarea>
+            </label>
+          </div>
+        </section>
+
+        <section class="panel grid-panel">
+          <label>
+            工具 ID
+            <input id="id" name="id" readonly />
+          </label>
+          <label>
+            分类
+            <input id="categoryTitle" name="categoryTitle" readonly />
+          </label>
+          <label>
+            标签
+            <input id="tag" name="tag" />
+          </label>
+          <label>
+            官网地址
+            <input id="officialUrl" name="officialUrl" placeholder="https://..." />
+          </label>
+          <label>
+            图标文字
+            <input id="logoText" name="logoText" maxlength="4" />
+          </label>
+          <label>
+            展示标签
+            <textarea id="tags" name="tags" rows="3" placeholder="每行一个标签"></textarea>
+          </label>
+        </section>
+
+        <section class="panel">
+          <label>
+            工具介绍
+            <textarea id="intro" name="intro" rows="6" placeholder="每段一行"></textarea>
+          </label>
+        </section>
+
+        <section class="panel">
+          <label>
+            主要功能
+            <textarea id="features" name="features" rows="8" placeholder="每行一个功能：标题｜说明"></textarea>
+          </label>
+        </section>
+
+        <section class="panel grid-panel two">
+          <label>
+            适用场景
+            <textarea id="scenarios" name="scenarios" rows="8" placeholder="每行一个场景"></textarea>
+          </label>
+          <label>
+            使用方法
+            <textarea id="howTo" name="howTo" rows="8" placeholder="每行一个步骤"></textarea>
+          </label>
+        </section>
+
+        <section class="panel grid-panel two">
+          <label>
+            常见问题
+            <textarea id="faq" name="faq" rows="8" placeholder="每行一个问答：问题｜答案"></textarea>
+          </label>
+          <label>
+            相关推荐 ID
+            <textarea id="relatedIds" name="relatedIds" rows="8" placeholder="每行一个工具 ID"></textarea>
+          </label>
+        </section>
+
+        <div class="action-bar">
+          <span id="saveStatus">选择左侧工具后即可编辑。</span>
+          <button type="submit">保存到 JSON</button>
+        </div>
+      </form>
+    </main>
+
+    <script src="./admin.js?v=20260526-dynamic-detail"></script>
+  </body>
+</html>
